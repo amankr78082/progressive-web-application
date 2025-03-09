@@ -1,0 +1,14 @@
+Explanation:
+index.html: The main page of the application, where the Service Worker is registered.
+
+manifest.json: Contains metadata about the app, making it installable as a PWA.
+
+service-worker.js: Manages caching to allow offline functionality.
+
+To test this PWA:
+
+Place all the files in a web server (like a localhost server).
+
+Open the app in a browser that supports PWAs (like Chrome or Edge).
+
+Test the offline capabilities by disconnecting from the internet.
